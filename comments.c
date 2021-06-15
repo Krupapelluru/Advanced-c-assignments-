@@ -1,27 +1,15 @@
-#include <stdio.h>
-#if 0
-/* factorila program
-
-  /* owner of the laptop
-   /* this is the factorial program*/
-  /* enter number to find factorial
-   *
-   *
-   * */ to comment nested comments we can use #if 0 to #endif*/
-
-*/
-#endif
+#include<stdio.h>
 int main()
 {
+	
+	/*factorial program */
+	x=10;
+	x=x+10;
+	y=y*10;
+	/*to execute another way*/
+	z=u*t;
+	/*temp variable */
+	r=s*t;
+	 return 0;
 
-	int n, i,fac=1;
-	printf("enter the number to find factorial\n");
-	scanf("%d",&n);
-	for(i=1;i<=n;i++)
-	{
-		fac=fac*i;
-	}
-	printf("the factorial %d of %d",n,fac);
-	return 0;
 }
-
